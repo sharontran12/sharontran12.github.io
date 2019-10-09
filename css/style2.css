@@ -1,0 +1,15 @@
+.horizontal-scroll-wrapper {
+	width:100px;
+	height: 300px;
+	background-color: teal;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transform: rotate(-90deg) translate(-100px);
+	transform-origin: right top;
+}
+
+.horizontal-scroll-wrapper >
+	height: 900px;
+	width: 900px;
+	transform:rotate(90deg);
+	transform-origin:right

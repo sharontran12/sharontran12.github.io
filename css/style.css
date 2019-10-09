@@ -1,0 +1,60 @@
+body {
+	background-image: linear-gradient(to bottom right,pink,aqua);
+	color: peachpuff;
+	margin:0px;
+}
+
+p {
+	font-size:30px;
+}
+
+img{
+	height: 400px;
+	width: 400px;
+}
+
+h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 90px;
+	margin:0px;
+	margin-left:400px;
+}
+
+.bunny {
+	background-color: skyblue;
+	color: black;
+	margin: ;
+}
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	/*width:200px;*/
+	overflow: hidden;
+	background-color:white;
+	position: fixed;
+
+}
+li {
+	float: left;
+
+}
+li a {
+	display: block;
+	color:coral;
+	text-align: center;
+	padding:8px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: black;
+	color:coral;
+}
+.active {
+	background-color: blue;
+}
+.paragraph{
+	width:800px;
+	text-align: center;
+	margin-left:300px;
+}
